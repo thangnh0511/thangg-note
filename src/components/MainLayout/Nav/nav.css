@@ -1,0 +1,26 @@
+.nav_header {
+    padding: 0 .5rem;
+    width: 100% ;
+    background-color: #fff;
+}
+
+
+.logo_block {
+    
+}
+
+.logo {
+    margin: 1rem 0;
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.nav_information--list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.nav_information--item {
+}

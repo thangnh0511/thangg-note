@@ -1,0 +1,124 @@
+::-webkit-scrollbar {
+  /* display: none; */
+  width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+  background-color: #fff;
+  display: none;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c4c4c4 !important;
+  display: block;
+}
+
+.notebook-wrap {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  /* background-color: #ffffff;
+  opacity: 0.9;
+  background-image: radial-gradient(
+    #444cf7 0.8500000000000001px,
+    #ffffff 0.8500000000000001px
+  );
+  background-size: 17px 17px; */
+}
+
+.nav-wrap {
+  /* flex-basis: 27rem; */
+  /* position: fixed; */
+  flex-grow: 0;
+  /* overflow-y: scroll; */
+  z-index: 1001;
+  background-color: blueviolet;
+  /* padding: 0 10px; */
+  box-sizing: border-box;
+  /* position: relative; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-block {
+  position: sticky;
+  top: 0;
+  /* width: 19rem; */
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #fff;
+  padding: 2rem 0.5rem 0 1rem;
+  text-align: left;
+}
+
+.nav-block--title {
+  margin: 0.5rem 0 0 0;
+  background-color: aliceblue;
+  padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+  border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  /* width: 100%; */
+  padding: 0 0 0 10px;
+  /* position: fixed;
+        left: 300px; */
+  width: 100%;
+}
+
+.content-header {
+  display: flex;
+  flex-flow: column;
+  /* z-index: 1000; */
+  background-color: aquamarine;
+  height: 80px;
+}
+
+.content-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  background-color: aliceblue;
+  /* position: fixed;
+        top: 90px;
+        left: 300px;
+        right: 0px; */
+  /* overflow-y: scroll; */
+  /* text-align: left; */
+  padding: 20px 0 0 0;
+  /* overflow-y: auto; */
+}
+
+.content_container {
+  width: 80%;
+  flex-shrink: 0;
+  /* min-height: 100px; */
+  background-color: blueviolet;
+  /* overflow: auto; */
+  padding: 0 20px;
+}
+
+.content-nav {
+  width: 100%;
+  background-color: wheat;
+  position: relative;
+}
+
+.content_nav--sticky {
+  min-width: 200px;
+  min-height: 300px;
+  margin: 0 20px;
+  background-color: #454545;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
